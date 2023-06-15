@@ -1,0 +1,182 @@
+:root{
+  background-image: linear-gradient(to right, lightblue, white);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #0d9cc0;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #a1e1f148;
+}
+.search-box {
+  margin-left: auto;
+}
+
+.search-box input[type="text"] {
+  padding: 5px;
+  width: 150px;
+}
+
+.search-box button {
+  padding: 5px 10px;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin: 0;
+  padding: 20px;
+  background-color: #0d9cc0;
+  color: #fff;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.grid div {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Adjust the number of columns as needed */
+  gap: 10px;
+}
+.third {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;}
+.box {
+  background-image: url(Assets/restaurant.jpg); /* Add different background images for each box */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px; /* Adjust the height as needed */
+  border-radius: 10px;
+}
+.map {
+margin-left: 35%;
+transition: tranform 0.5s ease-in-out;
+}
+.map:hover {
+transform: scale(1.1);
+}
+caption {
+  position: absolute;
+  font-style: italic;
+  bottom: -150px;
+  left: 65%;
+}
+.second {
+  text-align: center;
+  font-size: 15px;
+  margin-top: 3%;
+}
+.image-container{
+  margin-top: 4%;
+ align-content: center;
+ margin-left: 25%;
+ transition: tranform 0.5s ease-in-out;
+}
+.image-container:hover {
+transform: scale(1.1);
+}
+.caption {
+  position: absolute;
+  font-style: italic;
+  text-align: center;
+}
+.third {
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 5%;
+}
+.box-content {
+  font-size: 16px;
+  color: rgb(17, 14, 14); /* Adjust the font color for the labels */
+  font-style: bold;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: #555 0px 0px 10px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: #333;
+}
+
+.box-content:hover {
+  color: rgb(17, 14, 14); /* Adjust the font color on hover */
+  font-weight: bold; /* Use font-weight to make the text bold */
+  transform: scale(1.1);
+}
+.fourth {
+  text-align: center;
+  font-size: 15px;
+  margin-top: -9%;
+  font-weight: bold;
+}
+.image-group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+.image-group:hover {
+transform: scale(1.1);
+}
+.image-item {
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: #555 0px 0px 10px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.caption {
+  margin-top: 5px;
+  font-style: italic;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: -55px;
+}
+.content-container {
+  padding-bottom: 100px; /* Adjust the padding value as needed */
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 70%;
+  align-content: center;
+  text-align: center; /* Align the text to the center */
+  margin-left: 15%; /* Center the footer */
+}
